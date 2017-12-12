@@ -1,6 +1,6 @@
 {
   "name": "@medipass/eslint-config-react-medipass",
-  "version": "7.23.3",
+  "version": "8.3.0-13",
   "description": "ESLint config for the React Medipass apps",
   "files": [
     "index.js"
