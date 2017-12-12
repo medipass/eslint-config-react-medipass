@@ -3,7 +3,7 @@
 ## Install
 
 ```
-$ npm install eslint-config-react-medipass --save-dev
+$ npm install @medipass/eslint-config-react-medipass --save-dev
 ```
 
 
