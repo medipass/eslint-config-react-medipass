@@ -9,7 +9,9 @@ $ npm install @medipass/eslint-config-react-medipass --save-dev
 
 ## Usage
 
-`package.json`:
+Add `@medipass/react-medipass` to wherever you are extending eslint configurations:
+
+1. In `package.json`: 
 
 ```
 "eslintConfig": {
@@ -22,7 +24,10 @@ $ npm install @medipass/eslint-config-react-medipass --save-dev
 }
 ```
 
-`.eslintrc`/`.eslintrc.json`:
+### OR
+
+
+2. In `.eslintrc`/`.eslintrc.json`:
 
 ```
 {
