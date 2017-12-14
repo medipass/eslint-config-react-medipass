@@ -8,7 +8,12 @@ module.exports = {
   ],
   parser: 'babel-eslint',
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': ['error', {
+      "bracketSpacing": true,
+      "jsxBracketSameLine": false,
+      "printWidth": 120,
+      "singleQuote": true
+    }],
     'react/default-props-match-prop-types': 'error',
     'react/no-array-index-key': 'error',
     'react/no-children-prop': 'error',
